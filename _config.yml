@@ -104,3 +104,14 @@ deploy:
   type: git
   repository: https://github.com/Angaiing/angaiing.github.io.git
   branch: main
+
+# Markdown-it config
+# Docs: https://github.com/hexojs/hexo-renderer-markdown-it
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: "“”‘’"
