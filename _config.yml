@@ -115,3 +115,11 @@ markdown:
     linkify: true
     typographer: true
     quotes: "“”‘’"
+
+# Search
+## Docs: https://github.com/next-theme/hexo-generator-searchdb
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
