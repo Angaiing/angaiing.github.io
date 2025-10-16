@@ -107,9 +107,9 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+  type:
   repository: https://github.com/Angaiing/angaiing.github.io.git
-  branch: main
+  branch:
 
 # Markdown-it config
 # Docs: https://github.com/hexojs/hexo-renderer-markdown-it
