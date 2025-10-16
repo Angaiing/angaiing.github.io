@@ -113,3 +113,19 @@ div#archive {
   background: rgba(25, 25, 25, 0.9) !important;
   color: #ffffff;
 }
+
+@font-face {
+  font-family: "LXGWWenKaiMono";
+  font-display: swap;
+  src: url("./fonts/LXGWWenKaiMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  font-display: swap;
+  src: url("./fonts/SourceCodePro-Regular.ttf") format("truetype");
+}
+
+#page-header #site-subtitle {
+  font-family: "LXGW WenKai Mono", monospace;
+}
