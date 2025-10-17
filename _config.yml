@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Angaiing的小站
+title: 舰艏上浪的小站
 subtitle:
 description: ""
 keywords:
@@ -107,9 +107,9 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type:
+  type: git
   repository: https://github.com/Angaiing/angaiing.github.io.git
-  branch:
+  branch: main
 
 # Markdown-it config
 # Docs: https://github.com/hexojs/hexo-renderer-markdown-it

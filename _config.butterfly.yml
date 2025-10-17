@@ -21,7 +21,7 @@ menu:
   主页: / || fas fa-home
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  关于我: /about/ || fas fa-heart
+  关于: /about/ || fas fa-heart
   图库: /gallery/ || fas fa-images
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
@@ -627,7 +627,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo-vercel-puce.vercel.app/
+  envId: https://twikoo.angaiing.top/
   region:
   # Use Twikoo visitor count as the page view count
   visitor: false
@@ -1075,7 +1075,7 @@ CDN:
   # Options for both: local/jsdelivr/unpkg/cdnjs/custom
   # Note: Dev version can only use 'local' for internal scripts
   # Note: When setting third-party scripts to 'local', you need to install hexo-butterfly-extjs
-  internal_provider: local
+  internal_provider: jsdelivr
   third_party_provider: jsdelivr
 
   # Add version number to url, true or false
@@ -1083,6 +1083,7 @@ CDN:
 
   # Custom format
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
+  # custom_format: https://cdn.jsdmirror.com/npm/${name}${verType}/${min_file}
   custom_format:
 
   option:
