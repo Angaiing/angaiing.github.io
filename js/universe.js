@@ -15,6 +15,7 @@ function dark() {
     r = "226,225,142",
     d = "226,225,224",
     c = [];
+
   function f() {
     (n = window.innerWidth),
       (e = window.innerHeight),
@@ -22,6 +23,7 @@ function dark() {
       s.setAttribute("width", n),
       s.setAttribute("height", e);
   }
+
   function u() {
     h.clearRect(0, 0, n, e);
     for (var t = c.length, i = 0; i < t; i++) {
@@ -29,6 +31,7 @@ function dark() {
       s.move(), s.fadeIn(), s.fadeOut(), s.draw();
     }
   }
+
   function y() {
     (this.reset = function () {
       (this.giant = m(3)),
@@ -91,9 +94,11 @@ function dark() {
         o = !1;
       }, 50);
   }
+
   function m(t) {
     return Math.floor(1e3 * Math.random()) + 1 < 10 * t;
   }
+
   function l(t, i) {
     return Math.random() * (i - t) + t;
   }
@@ -105,9 +110,10 @@ function dark() {
       u();
     })(),
     (function t() {
-      document.getElementsByTagName("html")[0].getAttribute("data-theme") ==
-        "dark" && u(),
-        window.requestAnimationFrame(t);
+      //   document.getElementsByTagName("html")[0].getAttribute("data-theme") ==
+      //     "dark" && u(),
+      u();
+      window.requestAnimationFrame(t);
     })();
 }
 dark();
