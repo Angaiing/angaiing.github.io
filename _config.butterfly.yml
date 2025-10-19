@@ -169,10 +169,13 @@ subtitle:
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
     - 仰观宇宙之大，俯察品类之盛。
-    - —— 王羲之 《兰亭集序》
+    - —— 王羲之《兰亭集序》
     - 雪沫乳花浮午盏，蓼茸蒿笋试春盘。
-    - ——  苏轼 《浣溪沙·细雨斜风作晓寒》
-
+    - —— 苏轼《浣溪沙·细雨斜风作晓寒》
+    - 惟江上之清风，与山间之明月。
+    - —— 李白《问刘十九》
+    - 今宵酒醒何处？杨柳岸，晓风残月。
+    - —— 柳永《雨霖铃》
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
 # 2: Cover on the right, info on the left
@@ -271,7 +274,7 @@ footer:
   copyright:
     enable: true
     version: true
-  custom_text: <span id="workboard"></span>
+  custom_text: <a href="https://icp.gov.moe/?keyword=20250489" target="_blank">萌ICP备20250489号</a><br><span id="workboard"></span>
 
 # --------------------------------------
 # Aside Settings
@@ -803,9 +806,11 @@ preloader:
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
-  source: 1
+  source: 6
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
+  load_image: # url for source: 7
+  load_color: # '#37474f'  '#000000'
 
 # Page Transition
 enter_transitions: true
@@ -1069,6 +1074,8 @@ inject:
     # - <script src="xxxx"></script>
     # runtime js
     - <script defer src="/js/runtime.js"></script>
+    # 萌IPC备案
+    - <script src="/js/meng-ipc.js"></script>
     # 星空背景
     - <canvas id="universe"></canvas>
     - <script defer src="/js/universe.js"></script>

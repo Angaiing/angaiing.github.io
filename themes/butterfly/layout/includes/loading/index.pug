@@ -1,5 +1,14 @@
+//- if theme.preloader.enable
+//-   if theme.preloader.source === 1
+//-     include ./fullpage-loading.pug
+//-   else
+//-     include ./pace.pug
+
 if theme.preloader.enable
   if theme.preloader.source === 1
     include ./fullpage-loading.pug
-  else
+  else if theme.preloader.source === 2
     include ./pace.pug
+  else if  theme.preloader.source === 6
+    include ./wizard.pug
+
