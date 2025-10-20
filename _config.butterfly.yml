@@ -23,6 +23,7 @@ menu:
   分类: /categories/ || fas fa-folder-open
   关于: /about/ || fas fa-heart
   图库: /gallery/ || fas fa-images
+  友链: /link/ || fas fa-link
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
@@ -33,10 +34,10 @@ menu:
 
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
-  theme: darker
+  theme: pale night
   macStyle: false
   # Code block height limit (unit: px)
-  height_limit: false
+  height_limit: 200
   word_wrap: false
 
   # Toolbar
@@ -463,7 +464,7 @@ math:
   # Choose: mathjax, katex
   # Leave it empty if you don't need math
   use: mathjax
-  per_page: false
+  per_page: true
   hide_scrollbar: false
 
   mathjax:
