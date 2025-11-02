@@ -6,7 +6,6 @@ date: 2025-10-14 22:29:18
 {% gallery %}
 ![](https://img.angaiing.top/0384422112F30037F1AA9FE93C6451FA.webp)
 ![](https://img.angaiing.top/A43519FF68995379F7B338100D7CFC31.webp)
-![](https://img.angaiing.top/B889BD1FA4947E57ED6570786769877E.webp)
 ![](https://img.angaiing.top/D34C65876358ABE723451191D16268B3.webp)
 ![](https://img.angaiing.top/1C2710921D61E605BD29702DFAF87037.webp)
 ![](https://img.angaiing.top/3A682A8316A8BD9E221B53ABFE6DAE76.webp)
