@@ -5,7 +5,7 @@
 # Site
 title: 舰艏上浪的小站
 subtitle:
-description: ""
+description: "舰艏上浪的个人博客"
 keywords:
 author: Angaiing
 language: zh-CN
@@ -129,3 +129,12 @@ search:
   field: post
   content: true
   format: striptags
+
+# sitmap
+## https://github.com/hexojs/hexo-generator-sitemap
+sitemap:
+  path:
+    - sitemap.xml
+  rel: false
+  tags: true
+  categories: true
